@@ -1,6 +1,7 @@
 
 
 type StringArray = Array<string>;
+type primitiveNumber = 3 | 5;
 
 interface BackPack<Type> {
     add: (obj: Type) => void;
